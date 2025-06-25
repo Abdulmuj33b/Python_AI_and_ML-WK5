@@ -1,0 +1,7 @@
+ # Import required libraries
+ import pandas as pd  # Data manipulation and analysis
+ import numpy as np   # Numerical operations
+ from sklearn.preprocessing import RobustScaler  # Scaling that handles outliers
+ from sklearn.model_selection import train_test_split  # Data splitting utilities
+ import lightgbm as lgb  # Gradient Boosting framework optimized for speed
+ import shap  # SHapley Additive exPlanations for model interpretation
